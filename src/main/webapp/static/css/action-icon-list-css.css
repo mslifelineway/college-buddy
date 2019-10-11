@@ -1,0 +1,43 @@
+.icon-list-container ul {
+	width: 100%;
+	margin: 0px;
+	padding: 2px 6px;
+	list-style: none;
+	border-top: 1px solid #174A61;
+}
+
+.icon-list-container ul li {
+	text-align: center;
+	width: 24%;
+	padding: 2px 0px;
+}
+.icon-list-container ul li:hover {
+	background: #f2f2f2;
+	border-radius: 4px;
+}
+
+.icon-list-container ul li p {
+	text-decoration: none;
+	color: #174A61;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+}
+
+.icon-list-container ul li p:hover {
+	color: #009BD9;
+}
+.icon-list-container ul li a{
+	text-align: center;
+	padding: 2px 0px;
+	color: #174A61;
+	display: block;
+}
+.icon-list-container ul li a:hover {
+	color: #009BD9;
+	background: #f2f2f2;
+	border-radius: 4px;
+	text-decoration: none;
+}

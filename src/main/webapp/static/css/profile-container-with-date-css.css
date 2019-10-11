@@ -1,0 +1,61 @@
+.user_details {
+	padding: 0;
+}
+
+.user_details img {
+	width: 42px;
+	height: 42px;
+	border: 1px solid #174A61;
+	border-radius: 25px;
+	padding: 1px;
+	cursor: pointer;
+}
+
+.user_details .user_image_container {
+	float: left;
+	padding-left: 5px;
+}
+
+.user_details .user_detail_container {
+	float: left;
+	line-height: 15px;
+	width: 100%;
+	font-size: 15px;
+	height: 50px;
+	overflow: hidden;
+	padding-left: 5px;
+}
+
+.user_details .user_detail_container p {
+	font-size: 18px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.user_details .user_detail_container p a {
+	color: #174A61;
+}
+
+.user_details .user_detail_container p a:hover {
+	color: #009BD9;
+}
+
+.user_details .user_detail_container p span a {
+	color: #174A61;
+	font-size: 12px;
+}
+
+.user_details .user_detail_container p span  a:hover {
+	color: #009BD9;
+}
+
+.user_details .user_detail_container span {
+	font-size: 14px;
+	color: #174A61;
+	line-height: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	margin-top: 5px;
+}

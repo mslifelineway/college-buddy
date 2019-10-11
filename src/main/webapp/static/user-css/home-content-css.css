@@ -1,0 +1,207 @@
+* -- left side css --* /
+.main-container {
+	padding-top: 3px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-size: 16px;
+}
+
+.question-container {
+	padding: 5px;
+	padding-top: 20px;
+	overflow: hidden;
+	width: 100%;
+	overflow: hidden;
+}
+
+.question-item {
+	margin: 4px;
+	float: left;
+	border: 1px solid #174a6157;
+	border-radius: 3px;
+	padding: 3px;
+	background-color: #f8f9fa;
+	background-image: -webkit-linear-gradient(top, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(top, #fff, #fff, #f1f1f1);
+	width: 32.4%;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0 0 0 1px #dee2e6 inset, 0 0 0 2px #fff inset, 0 0px 0 0
+		#f8f9fa, 0 0 0 0 #f8f9fa, 0 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.question-item:hover {
+	background-image: -webkit-linear-gradient(bottom, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(bottom, #fff, #fff, #f1f1f1);
+}
+
+.user_post_action {
+	padding: 0px;
+}
+
+.answer {
+	width: 100%;
+}
+
+.question article {
+	margin: 3px;
+}
+
+.q-title {
+	margin: 10px;
+	margin-bottom: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.q-title h4 {
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #174A61;
+}
+
+.q-title a {
+	padding: 0px;
+	margin: 0px;
+	text-decoration: underline;
+	color: #174A61;
+}
+
+.q-title a:hover {
+	color: #009BD9;
+}
+
+.question-item .blog {
+	width: 100%;
+}
+
+.blog-title {
+	width: 100%;
+}
+
+.question-item .blog-title h5 {
+	height: 70px;
+	overflow: hidden;
+	font-weight: 700;
+	font-family: arial, sans-serif-light, sans-serif;
+}
+
+.q_date small {
+	color: red;
+}
+.answer_to_question{
+	width: 100%;
+}
+.answer_to_question article {
+	max-height: 75px;
+	overflow: hidden;
+	font-weight: 700;
+	font-family: arial, sans-serif-light, sans-serif;
+}
+
+.question-item .details {
+	overflow: hidden;
+}
+/* TRANSPARENT BACKGROUND FOR HIDING CONTENT OF AN ARTICLE */
+.question-item .answer article, .question article{
+	height: 245px;
+	overflow: hidden;
+}
+.question-item .answer, .question {
+	height: 248px;
+	overflow: hidden;
+}
+
+.transparent-background{
+	position: relative;
+	z-index: 1000;
+	height: 100px;
+	width: 100%;
+	top: -80px;
+	opacity: .7;
+	background-color: #f8f9fa;
+	background-image: -webkit-linear-gradient(top, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(top, #fff, #fff, #f1f1f1);
+}
+/* TRANSPARENT BACKGROUND FOR HIDING CONTENT OF AN ARTICLE (END) */
+.options {
+	height: 25px;
+}
+
+.menu-options ul {
+	list-style: none;
+}
+
+.menu-options {
+	position: relative;
+	top: 10px;
+	right: 30px;
+	display: none;
+	z-index: 1027;
+	clear: both;
+}
+
+.options .btn-menu {
+	color: #aaaaaa;
+	padding: 2px 6px;
+	margin: 0px;
+}
+
+.menu-options ul {
+	position: absolute;
+	top: -10px;
+	right: -30px;
+	clear: both;
+	list-style: none;
+	text-align: center;
+	font-size: 16px;
+	border: 1px solid #174a6157;
+	border-radius: 3px;
+	padding: 2px;
+	background-color: #f8f9fa;
+	background-image: -webkit-linear-gradient(right, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(right, #fff, #fff, #f1f1f1);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0 0 0 1px #dee2e6 inset, 0 0 0 2px #fff inset, 0 0px 0 0
+		#f8f9fa, 0 0 0 0 #f8f9fa, 0 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+.menu-options .inner {
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.menu-options ul li a {
+	z-index: 1;
+	text-align: center;
+	width: 100%;
+	padding: 3px 20px;
+	margin: 0px;
+	color: #174A61;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+}
+
+.menu-options ul li.hr {
+	width: 100%;
+	cursor: default;
+	height: 1px;
+	padding: 0;
+	border: 1px solid #174a6157;
+	background-color: #f8f9fa;
+	background-image: -webkit-linear-gradient(left, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(left, #fff, #fff, #f1f1f1);
+}
+
+.menu-options ul li a:hover {
+	color: red;
+	background-color: #f8f8f8;
+	background-image: -webkit-linear-gradient(bottom, #fff, #fff, #f1f1f1);
+	background-image: -webkit-linear-gradient(bottom, #fff, #fff, #f1f1f1);
+}

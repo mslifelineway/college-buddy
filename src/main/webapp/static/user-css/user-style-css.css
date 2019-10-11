@@ -1,0 +1,200 @@
+/*-- HEADER --*/
+body {
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-size: 16px;
+}
+
+.header {
+	height: 50px;
+	line-height: 40px;
+	font-size: 20px;
+	border-bottom: 1px solid #174A61;
+	background: #fff;
+	width: 100%;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.account_container {
+	line-height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 0px;
+	background: transparent;
+}
+
+.account_container label {
+	font-family: "Rubik Mono One";
+	font-size: 15px;
+	color: #174A61;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	border: 0px;
+}
+
+.account_container label:hover {
+	color: #009BD9;
+}
+
+.profile_container {
+	line-height: 30px;
+	margin-top: 5px;
+	margin-left: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+.profile_image_container {
+	float: left;
+	padding: 0;
+}
+
+.profile_image_container img {
+	alignment-adjust: central;
+	border: 1px groove #174A61;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.profile_data {
+	float: left;
+	line-height: 15px;
+	font-size: 15px;
+	height: 40px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.profile_data p, .profile_data a {
+	font-size: 20px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.profile_data a:hover {
+	color: #009BD9;
+	text-decoration: underline;
+}
+
+.profile_data span {
+	font-size: 12px;
+	color: #174A61;
+	line-height: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	cursor: pointer;
+}
+.profile_data span a{
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.profile_data span:hover {
+	color: #009BD9;
+	text-decoration: underline;
+}
+
+.search_container {
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px 10px;
+	background: transparent;
+}
+
+.header_center_container {
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.search_box {
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #174A61;
+	background: transparent;
+}
+
+.search_box input[type=text] {
+	height: 38px;
+	background: transparent;
+	border: none;
+	width: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.search_box button {
+	height: 37px;
+	width: 10%;
+	font-family: "Rubik Mono One", serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	margin-right: 0px;
+	background: transparent;
+	border-left: 1px solid #174A61;
+}
+
+.right_option_box {
+	height: 50px;
+}
+
+.right_option_box ul {
+	display: block;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+}
+
+.right_option_box ul li {
+	display: inline;
+	list-style: none;
+	font-size: 25px;
+}
+
+.right_option_box ul li a {
+	text-decoration: none;
+	color: #174A61;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.right_option_box ul li a:hover {
+	color: #009BD9;
+}
+
+.right_option_box_title {
+	border: 1px solid #174A61;
+	margin: 5px 5px;
+	padding: 0px;
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT UL WILL BE HIDE WHEN IT WILL  */
+}
+
+.right_option_box_title p {
+	text-align: center;
+}
+
+.solid-hr {
+	margin: 1px 0px;
+	height: 1px;
+	background: #fefefe;
+	width: 100%;
+	padding: 0px;
+}

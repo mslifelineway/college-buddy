@@ -1,0 +1,83 @@
+body{
+    padding: 5px;
+    color: #174A61;
+    font-family: "Rasa", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/*-- CONTENT AREA --*/
+/*------------------ left content area ----------*/
+.left_content{
+    border: 0px;
+    padding: 0px;
+    height: calc(100vh -  80px);
+    overflow: auto;
+    padding: 5px 0px 0px 25px;
+}
+
+
+/*-- css for if student not joined group --*/
+
+
+.middle_content{
+    padding:0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.middle_content_container{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #174A61;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-family: "Rasa", serif;
+    font-size: 16px;
+}
+.middle_content_container p{
+    margin: 0px;
+    color: red;
+    padding: 5px;
+}
+#question{
+    margin: 0px;
+    padding: 5px;
+    color: #174A61;
+}
+#action{
+    border-top: 1px solid #174A61;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+}
+#action ul{
+    margin: 0px;
+    padding: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#action ul li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#action ul li a{
+    color: #174A61;
+    text-decoration: none;
+    padding: 3px 8px;
+    display: block;
+    font-weight: 700;
+}
+#action ul li a:hover{
+    color: #009BD9;
+    text-decoration: underline;
+}
+.right_option_box ul{
+    display: none; /* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+background: red;
+}
+.right_option_box_title {
+    display: block;
+}

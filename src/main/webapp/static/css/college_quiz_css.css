@@ -1,0 +1,28 @@
+.quiz_table th{
+    padding: 8px 15px;
+    background: #174A61;
+    color: #fff;
+    font-family: "Rasa", serif;
+    color: #fff;
+    text-align: center;
+}
+.quiz_table td{
+    padding: 5px 8px;
+    font-family: "Rasa", serif;
+    color: #174A61;
+    text-align: center;
+}
+.quiz_table td a{
+    color: #174A61;
+}
+
+.quiz_table td a:hover{
+    color: #009BD9;
+}
+.right_option_box ul{
+    display: none; /* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+background: red;
+}
+.right_option_box_title {
+    display: block;
+}

@@ -1,0 +1,73 @@
+body{
+    background: #f2f2f2;
+    font-family: "Mirza", serif;
+    font-weight: 300;
+    color: #174A61;
+}
+
+.middle_content{
+    display: inline;
+    background: #fff;
+    padding: 10px;
+}
+.circle{
+    padding: 0px;
+    width: 80px;
+    display: block;
+    padding: 4px;
+    text-align: center;
+}
+
+.circle a{
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+    background: #f2f2f2;
+    display: flex;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #e2e2e2;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f6f6f6;
+    font-size: 40px;
+    transition: all 0.8s
+}
+.circle a:hover{
+    background: #f2f2f2;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    transition: all 0.8s
+}
+
+.circle a:after {
+    content: "";
+    background: #174A61;
+    display: block;
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 80px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.circle a:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.circle a span{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.circle a .text-icon{
+    font-family: "Rubik Mono One", cursive;
+}

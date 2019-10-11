@@ -1,0 +1,154 @@
+body {
+	padding: 5px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.filter-data-container{
+	margin: 0px;
+	padding: 0px;
+}
+.list-data {
+	padding: 0px;
+	padding: 15px 12px 0px 12px;
+}
+
+.list-data ul {
+	text-align: center;
+}
+
+.list-data ul li {
+	list-style: none;
+	text-align: center;
+	
+}
+
+.list-data ul li select {
+	border: 1px solid #174A61;
+	color: #174A61;
+	border-radius: 25px;
+	padding: 4px 6px;
+	font-size: 15px; 
+	text-align: center;
+  text-align-last: center;
+}
+.list-data ul li option {
+  text-align: left;
+}
+
+.list-data ul .btn-apply {
+	border: 1px solid #174A61;
+	color: #174A61;
+	border-radius: 10px;
+	padding: 2px 6px;
+	font-weight: 700;
+	font-size: 18px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.list-data ul .btn-apply:hover{
+	border: 1px solid #f8f8f8;
+	color: #fff;
+	background: #174A61;
+	border-radius: 10px;
+	padding: 2px 6px;
+	font-weight: 700;
+	font-size: 19px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.filter-items .item {
+	padding : 5px;
+	float:left;
+}
+.filter-items .item .item-content{
+	border: 1px solid #174A61;
+	color: #174A61;
+	border-radius: 5px;
+	padding: 4px;
+}
+.filter-items .item img {
+	width: 100%;
+	height: 180px;
+}
+
+.filter-items .item ul {
+	display: flex;
+	padding: 0;
+	padding-top: 5px;
+}
+
+.filter-items .item ul li {
+	list-style: none;
+	margin:0;
+	width: 100%;
+	text-align: center;
+}
+
+.filter-items .item ul li a{
+	border-radius: 10px;
+	padding: 2px 6px;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 5px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+.filter-items .item ul li .btn-view{
+	border: 1px solid #2BC105; color: #2BC105;
+}
+.filter-items .item ul li .btn-download{
+	border: 1px solid #EF4723; color: #EF4723;
+}
+.filter-items .item ul li .btn-view:hover{
+	background: #2BC105;
+	color: #fff;
+}
+.filter-items .item ul li .btn-download:hover{
+	background:#EF4723;
+	color: #fff;
+}
+
+.filter-items .item hr{
+	margin: 2px;
+	padding:0;
+}
+.filter-items .item p{
+	margin: 0px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.other-choices{
+	
+}
+.other-choices ul{
+	padding: 0px 80px;
+}
+.other-choices ul li{
+	list-style: none;
+	border: 1px solid #174A61;
+	border-radius: 5px;
+	color: #174A61;
+	padding: 2px 6px;
+	font-size: 15px;
+	font-weight: 700;
+	margin: 5px;
+	text-align: center;
+}
+
+.right_option_box ul {
+	display: none;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+	background: red;
+}
+
+.right_option_box_title {
+	display: block;
+}

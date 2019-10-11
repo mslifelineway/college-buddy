@@ -1,0 +1,53 @@
+body {
+	padding: 5px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	font-size: 20px;
+}
+/* -- css for scrollbar --*/
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #a18cd1;
+  outline: 1px solid #da1b60;
+}
+/* -- css for scrollbar end --*/
+.photos-section {
+	padding: 0px;
+	padding: 0px 8px;
+}
+
+.photo-frame {
+	/* background: linear-gradient(to right,#ff8a00,#da1b60); */
+	padding: 2px;
+	margin: 0px;
+	float: left;
+}
+
+.photo-frame img {
+	width: 100%;
+	height: 200px;
+	border: 4px groove transparent;
+	border-radius: 10px 30px;
+	margin: 2px;
+	background: linear-gradient(to right, red, orange);
+	object-fit: cover;
+	object-position: center; /* Center the image within the element */
+}
+
+.right_option_box ul {
+	display: none;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+	background: red;
+}
+
+.right_option_box_title {
+	display: block;
+}

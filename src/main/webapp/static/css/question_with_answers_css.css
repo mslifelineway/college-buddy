@@ -1,0 +1,112 @@
+/*-- middle content container --*/
+.middle_content_container {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.middle_content_container .middle_content {
+	border: 1px solid #174A61;
+	padding: 5px 2px;
+	margin-bottom: 5px;
+}
+
+.middle_content_container .middle_content .user_post {
+	padding: 0px;
+}
+
+
+
+/*-- QUESTION CSS --*/
+.middle_content_container .middle_content .user_post .question {
+	margin: 0;
+}
+
+.middle_content_container .middle_content .user_post .question .user_post_action
+{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.middle_content_container .middle_content .user_post .question span {
+	font-family: "Rubik Mono One", serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: white;
+	float: left;
+}
+
+.middle_content_container .middle_content .user_post .question .question_container
+	{
+	border-left: 2px solid #174A61;
+	margin-left: 10px;
+}
+
+.middle_content_container .middle_content .user_post .question .question_container .question-data {
+	font-size: 18px;
+	padding-left: 10px;
+	color: #174A61;
+	line-height: 20px;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+}
+
+.middle_content_container .middle_content .user_post .question img {
+	width: 99%;
+	height: 300px;
+	display: block;
+	margin: 4px;
+}
+
+.myCarousel {
+	padding: 10px;
+}
+
+/* -- answer */
+.middle_content_container .middle_content .user_post .answer .user_post_action
+{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+.middle_content_container .middle_content .user_post .answer {
+	margin-top: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+.middle_content_container .middle_content .user_post .answer span {
+	font-family: "Rubik Mono One", serif;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: white;
+	float: left;
+}
+
+.middle_content_container .middle_content .user_post .answer .answer_container
+	{
+	border-left: 2px solid #174A61;
+	margin-left: 10px;
+}
+
+.middle_content_container .middle_content .user_post .answer .answer-data {
+	font-size: 18px;
+	padding-left: 10px;
+	color: #174A61;
+	line-height: 20px;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+}
+
+.middle_content_container .middle_content .user_post .answer img {
+	width: 99%;
+	max-height: 300px;
+	display: block;
+	margin: 4px;
+}

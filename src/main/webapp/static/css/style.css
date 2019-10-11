@@ -1,0 +1,554 @@
+.error {
+	color: red;
+}
+/*-- HEADER --*/
+.header {
+	height: 50px;
+	line-height: 40px;
+	font-size: 20px;
+	border-bottom: 1px solid #174A61;
+	background: #fff;
+	width: 100%;
+	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.account_container {
+	line-height: 30px;
+	margin-top: 5px;
+	margin-left: 5px;
+	padding: 0px;
+	background: transparent;
+}
+
+.account_container label {
+	font-family: "Rubik Mono One";
+	font-size: 15px;
+	color: #174A61;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	border: 0px;
+}
+
+.account_container label:hover {
+	color: #009BD9;
+}
+
+.profile_container {
+	line-height: 30px;
+	margin-top: 5px;
+	margin-left: 0px;
+	padding: 0px;
+	background: transparent;
+}
+
+.profile_image_container {
+	float: left;
+	padding: 0;
+}
+
+.profile_image_container img {
+	alignment-adjust: central;
+	border: 1px groove #174A61;
+	border-radius: 50%;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.profile_data {
+	float: left;
+	line-height: 15px;
+	font-size: 15px;
+	height: 40px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.profile_data p, .profile_data a {
+	font-size: 18px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.profile_data a:hover {
+	color: #009BD9;
+	text-decoration: underline;
+}
+
+.profile_data a.user-college-link {
+	font-size: 12px;
+	color: #174A61;
+	line-height: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+}
+
+.profile_data a.user-college-link:hover {
+	color: #009BD9;
+	text-decoration: underline;
+}
+
+.sign_up, .sign_in {
+	font-family: 'Rubik Mono One', sans-serif;
+	color: #174A61;
+	background: transparent;
+}
+
+.search_container {
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px 10px;
+	background: transparent;
+}
+
+.header_center_container {
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.search_box {
+	margin: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border: 1px solid #174A61;
+	background: transparent;
+}
+
+.search_box input[type=text] {
+	height: 38px;
+	background: transparent;
+	border: none;
+	width: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.search_box button {
+	height: 37px;
+	width: 10%;
+	font-family: "Rubik Mono One", serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 30px;
+	margin-right: 0px;
+	background: transparent;
+	border-left: 1px solid #174A61;
+}
+
+.right_option_box {
+	height: 50px;
+}
+
+.right_option_box ul {
+	display: block;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+}
+
+.right_option_box ul li {
+	display: inline;
+	list-style: none;
+	font-size: 25px;
+}
+
+.right_option_box ul li a {
+	text-decoration: none;
+	color: #174A61;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.right_option_box ul li a:hover {
+	color: #009BD9;
+}
+
+.right_option_box_title {
+	border: 1px solid #174A61;
+	margin: 5px 5px;
+	padding: 0px;
+	height: 40px;
+	width: 100%;
+	overflow: hidden;
+	display: none;
+	/* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT UL WILL BE HIDE WHEN IT WILL  */
+}
+
+.right_option_box_title p {
+	text-align: center;
+}
+
+.right_option_box_title p a {
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	display: block;
+	color: #174A61;
+}
+.right_option_box_title p a:hover{
+	color: #007bff;
+	
+}
+/*-- ===============> CONTENT PART  <=================== --*/
+#content_area {
+	margin-top: 10px;
+}
+/*-- left content container --*/
+.left_content_container {
+	padding: 2px;
+}
+
+.left_content {
+	border: 1px solid #174A61;
+	padding: 5px 2px;
+	margin-bottom: 5px;
+}
+
+.left_content .user_post {
+	clear: both;
+}
+
+.left_content .user_post p {
+	font-size: 18px;
+	color: #174A61;
+	line-height: 20px;
+	font-family: "Mirza", serif;
+	word-break: inherit;
+	word-wrap: break-word;
+	font-weight: 400;
+}
+
+.left_content .user_post_action {
+	border-top: 1px solid #174A61;
+	padding: 0px;
+}
+
+/*-- right content container --*/
+.right_content_container {
+	padding: 0px;
+}
+
+.right_content_container .right_content .events {
+	border: 1px solid #174A61;
+}
+
+.right_content_container .right_content .events p {
+	color: #174A61;
+	font-family: "Mirza", serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.right_content_container .right_content .events_container {
+	border: 1px solid #174A61;
+	margin: 0;
+	padding: 0;
+	line-height: 15px;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.right_content_container .right_content .events_container .events_title p
+	{
+	font-size: 18px;
+	color: #174A61;
+	font-family: "Rasa", serif;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+.right_content_container .right_content .events_container .events_title span
+	{
+	font-size: 12px;
+	color: #174A61;
+	line-height: 10px;
+	font-family: "Rasa", serif;
+	font-weight: 300;
+}
+
+.right_content_container .right_content .events_container .event_article
+	{
+	width: 100%;
+}
+
+.right_content_container .right_content .events_container .event_article article
+	{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.right_content_container .right_content .events_container .event_article .image-wrapper
+	{
+	width: 60%;
+	float: left;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.right_content_container .right_content .events_container .event_article .image-wrapper
+	{
+	width: 40%;
+}
+
+.right_content_container .right_content .events_container .event_article .image-wrapper img
+	{
+	width: 100%;
+}
+
+.right_content_container .right_content .events_container .event_article p
+	{
+	font-size: 16px;
+	line-height: 18px;
+	font-family: "Mirza", serif;
+	font-weight: 300;
+}
+
+.right_content_container .right_content .events_container .apply a {
+	width: 100%;
+	border: 1px solid #174A61;
+	font-size: 16px;
+	line-height: 18px;
+	font-family: "Mirza", serif;
+	font-weight: 300;
+	margin-bottom: 5px;
+	color: #174A61;
+}
+
+.right_content_container .right_content .events_container .apply a:visited
+	{
+	color: #174A61;
+}
+
+.right_content_container .right_content .events_container .apply a:hover
+	{
+	font-size: 18px;
+	line-height: 18px;
+	color: #fff;
+	background: #174A61;
+}
+
+* /
+	/*  css for modal for signUp or singIn */ 
+.modal-content {
+	border: 1px solid #174A61;
+}
+
+.modal-content .modal-header {
+	border-bottom: 1px solid #174A61;
+	padding: 2px 5px;
+	text-align: center;
+	width: 100%;
+}
+
+.modal-content .modal-header p {
+	width: 100%;
+	font-family: "Mirza", serif;
+	font-size: 25px;
+	font-weight: 700;
+	color: #174A61;
+	text-align: center;
+}
+
+.modal-content .modal-header button {
+	font-size: 35px;
+	color: #174A61;
+}
+
+.sign_in_form, .sign_up_form {
+	font-family: "Mirza", serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.sign_up_form .first_name input[type=text], .sign_up_form .last_name input[type=text],
+	.sign_up_form .university_name .select, .sign_up_form .profession input[type=text]
+	{
+	width: 100%;
+	border: 1px solid #174A61;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+.sign_up_form .email_address, .sign_up_form .password, .sign_in_form .username,
+	.sign_in_form .password {
+	border: 1px solid #174A61;
+	border-radius: 5px;
+	padding: 0px;
+	display: flex;
+}
+
+.sign_up_form .email_address .icon, .sign_up_form .password .icon,
+	.sign_in_form .username .icon, .sign_in_form .password .icon {
+	padding: 8px;
+	margin: 0px;
+	font-size: 20px;
+	background: #f6f6f6;
+	color: #174A61;
+	min-width: 50px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.sign_up_form .email_address input[type=email], .sign_up_form .password input[type=password],
+	.sign_in_form .username input[type=text], .sign_in_form .password input[type=password]
+	{
+	margin: 0px;
+	border: 0px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	width: 100%;
+	background: #fff;
+}
+
+.sign_up_form .create_account, .sign_in_form .login_account {
+	border: 1px solid #174A61;
+	border-radius: 5px;
+	padding: 0px;
+	background: #174A61;
+}
+
+.sign_up_form .create_account span, .sign_in_form .login_account span {
+	border-radius: 5px;
+	margin: 0px;
+	padding: 5px 8px;
+	display: block;
+	color: #fff;
+	background: #174A61;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.sign_up_form .create_account span:hover, .sign_in_form .login_account span:hover
+	{
+	background: #2d586a;
+}
+
+.divider {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.facebook_login {
+	border: 1px solid #428bca;
+	border-radius: 5px;
+	padding: 0px;
+	background: #428bca;
+}
+
+.facebook_login span {
+	background: #fff;
+	opacity: 0.85;
+	padding: 2px 10px;
+	color: #428bca;
+	margin: 5px 2px;
+	border-radius: 3px;
+}
+
+.facebook_login p {
+	border-radius: 5px;
+	margin: 0px;
+	padding: 5px 8px;
+	display: block;
+	color: #fff;
+	background: #428bca;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.facebook_login p:hover {
+	background: #3b87c7;
+}
+
+.google_login {
+	margin-top: 10px;
+	border: 1px solid #d9534f;
+	border-radius: 5px;
+	padding: 0px;
+	background: #d9534f;
+}
+
+.google_login span {
+	background: #fff;
+	opacity: 0.85;
+	padding: 2px 10px;
+	color: #d9534f;
+	margin: 5px 2px;
+	border-radius: 3px;
+}
+
+.google_login p {
+	border-radius: 5px;
+	margin: 0px;
+	padding: 5px 8px;
+	display: block;
+	color: #fff;
+	background: #d9534f;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.google_login p:hover {
+	background: #d54b48;
+}
+/*-- CODE TO REMOVE BACKGROUND OF INPUT TAG (DEFAULT BACKGROUND) */
+/* Change the white to any color ;) */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus,
+	input:-webkit-autofill:active {
+	-webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+	-webkit-text-fill-color: #174A61 !important;
+}
+
+#sign_in_modal .modal-content .reset_password a {
+	color: #174A61;
+	font-family: "Mirza", serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+#sign_in_modal .modal-content .reset_password a:hover {
+	color: #009BD9;
+}
+/*-- progressbar --*/
+#progressbar {
+	background: transparent;
+}
+
+#back {
+	background: #77b9d5;
+	background: rgba(119, 185, 213, 0.1);
+	opacity: 0.1;
+}

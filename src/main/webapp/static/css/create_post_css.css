@@ -1,0 +1,68 @@
+/*-- css for setting color to editor --*/
+body a{
+    color: #174A61;
+}
+.search_box{
+    height: 40px;
+    padding: 0px;
+}
+.right_option_box ul{
+    display: none; /* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+ }
+.right_option_box_title {
+    display: block;
+}
+
+/*-- right content --*/
+.content{
+    background: #fff;
+    padding: 5px;
+}
+.right_content_container{
+    margin: 0px auto;
+}
+.right_content_container .post_title{
+    display: flex;
+}
+.right_content_container .post_title input[type=text]{
+    margin: 0px;
+    background: white;
+    border: 1px solid #174A61;
+    border-radius: 5px;
+    padding: 5px 8px;
+    width: 100%;
+    font-family: "Mirza", serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+.right_content_container .post_title p{
+    padding: 10px 20px;
+    font-family: "Mirza", serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #174A61; 
+    text-decoration: none;
+    border: 1px solid #174A61;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin: 10px; 
+    cursor: pointer;
+}
+.right_content_container .post_title p:hover{
+    background: #174A61;
+    color: #fff;
+}
+.right_content_container .post_content{
+    padding: 0px;
+}
+
+/* CONTENT AREA */
+.code_section textarea{
+    width: 100%;
+    padding: 5px;
+}
+.more_details{
+    margin-bottom: 15px;
+}

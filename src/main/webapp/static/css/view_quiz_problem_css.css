@@ -1,0 +1,44 @@
+body{
+    padding: 5px;
+    color: #174A61;
+    font-family: "Rasa", serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/*-- CONTENT AREA --*/
+/*------------------ left content area ----------*/
+.left_content{
+    border: 0px;
+    padding: 0px;
+    height: calc(100vh -  80px);
+    overflow: auto;
+    padding: 5px 0px 0px 25px;
+}
+
+/*-- css for if student not joined group --*/
+
+
+.middle_content{
+    padding:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+    
+}
+/*.middle_content_container{
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #174A61;
+}*/
+.user_details{
+    border: 0px;
+}
+.right_option_box ul{
+    display: none; /* THIS MAY CHANGE WHENEVER YOUR WANT TO SHOW TITLE BUT IT WILL BE HIDE WHEN TITLE WILL SHOW  */
+background: red;
+}
+.right_option_box_title {
+    display: block;
+}

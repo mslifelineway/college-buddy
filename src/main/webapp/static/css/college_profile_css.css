@@ -1,0 +1,129 @@
+.college_profile_header{
+   /* height: 200px; */
+    background: #174A61;
+    padding: 0px;
+}
+.college_profile_header img{
+    height: 40vh;
+    padding: 0px;
+    margin: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.college_profile_details{
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background: white;
+    
+}
+.college_profile_details img{
+    width: 100px; 
+    height: 100px;
+    margin-top: -50px;
+    background: #174A61;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 1px;
+    float: left;
+    
+}
+.college_profile_details  p{
+    font-family: "Rubik Mono One", serif;
+    color: #174A61;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 15px;
+    text-align: left;
+    
+}
+
+.college_profile_details p a{
+    font-family: "Rubik Mono One", serif;
+    color: #174A61;
+    font-weight: 400;
+    font-size: 15px;
+    border: 2px solid #174A61;
+    border-radius: 50px;
+    padding: 5px 8px;
+    line-height: 15px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.college_profile_details p a:hover{
+    background: #174A61;
+    color: #fff;
+}
+
+.college_profile_menus{
+    border: 1px solid #174A61;
+    padding: 0px;  
+}
+.college_profile_menus ul{
+    padding: 0px;
+    margin: 0px;
+}
+.college_profile_menus ul li{ 
+    display: inline;
+    margin: 5px;
+}
+
+.college_profile_menus ul li a{
+    
+    font-family: "Rasa", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px; /*--  mandatory --*/
+    color: #174A61;
+    border: 1px solid #174A61;
+    padding: 5px 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.college_profile_menus ul li a:hover{
+    background: #174A61;
+    color: #fff;
+    
+}
+/*-- EVENT CONTAINER --*/
+.event_container{
+   padding: 10px; 
+}
+.event_container p{
+    margin: 0px;
+    font-family: "Mirza", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #174A61;
+    border-bottom: 1px solid #174A61;
+}
+.event_container label{
+    font-size: 15px;
+    font-family: "Mirza", serif;
+    font-weight: 300;
+    line-height: 15px;
+    color: #174A61;
+}
+.event_container h6{
+    color: black;
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.event_container .event_name{
+    font-family: "Rasa", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-transform: capitalize;
+}
+.event_container .event_detail{
+    font-family: "Mirza", serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #174A61;
+}

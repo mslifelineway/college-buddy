@@ -1,0 +1,183 @@
+.skill-header {
+	font-weight: 700;
+}
+.add-more-skills {
+	margin-top: 10px;
+}
+.add-more-skills ul{
+	position: relative;
+	z-index: 1;
+	top: 50px;
+	padding-left: 10px;
+}	
+.add-more-skills .li-min-width li{
+	width: 150px;
+	height: 30px;
+	border: 1px solid #b0b4b6;
+	padding: 0;
+	margin: 0;
+	background-image: -webkit-linear-gradient(top, #ebebeb, #fefefe);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2) inset;
+	border-radius: 3px;
+	text-indent: 5px;
+	color: #757575;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.add-more-skills .li-min-width li input[type=text]{
+	height: 28px;
+	width: 100%;
+	border: 1px solid #b0b4b6;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2) inset;
+	border-radius: 3px;
+	text-indent: 5px;
+	color: #757575;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 12px;
+}
+.user-skills ul li {
+	background-image: -webkit-linear-gradient(top, #ebebeb, #fefefe);
+}
+
+.user-skills-list ul li, .add-more-skills ul li {
+	background-image: -webkit-linear-gradient(top, #ebebeb, #fefefe);
+}
+
+.inputs input[type=checkbox] {
+	visibility: hidden;
+}
+
+.inputs input[type=checkbox]+label:before {
+	border: 1px solid #333;
+	content: "\00a0";
+	display: inline-block;
+	font: 16px/1em sans-serif;
+	height: 16px;
+	margin: .25em 0 0;
+	padding: 0;
+	vertical-align: top;
+	width: 16px;
+}
+
+.inputs input[type="checkbox"]:checked+label:before {
+	background: #fff;
+	color: #333;
+	content: "\2713";
+	text-align: center;
+}
+
+.inputs input[type="checkbox"]:checked+label:after {
+	font-weight: bold;
+}
+
+.inputs input[type="checkbox"]:focus+label::before {
+	outline: rgb(59, 153, 252) auto 5px;
+}
+
+.inputs label {
+	margin-bottom: 0;
+}
+
+.submit-button input[type=submit] {
+	background-image: -webkit-linear-gradient(top, #fefefe, #e1e1e1);
+	border-radius: 4px;
+	border: 1px solid #174A61;
+	color: #174A61;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.submit-button input[type=submit]:hover {
+	background-image: -webkit-linear-gradient(top, #ebebeb, #fefefe);
+	color: #174A20;
+}
+
+.middle-section {
+	padding: 10px 30px;
+}
+
+.user-skills-list span, .add-more-skills span {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 2px;
+}
+
+.search-skill-box {
+	margin: 10px;
+	width: 60%;
+	position: absolute;
+	z-index: 2;
+}
+
+.search-skill-box .add-skills-button {
+	text-align: center;
+	padding: 2px 20px;
+	color: #174A61;
+	background: #f3f3f3;
+	cursor: pointer;
+	display: flex;
+	margin: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0x;
+	border-top-right-radius: 6px;
+}
+
+.search-skill-box .add-skills-button:hover {
+	background: #eee;
+}
+
+.search-skill-box input[type=text] {
+	height: 25px;
+	width: 100%;
+	border: 1px solid #b0b4b6;
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2) inset;
+	border-radius: 3px;
+	text-indent: 5px;
+	color: #757575;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.search-skill-box .search-box {
+	margin: 0px;
+	width: 60%;
+	background-image: -moz-linear-gradient(top, #e9edee, #d0d4d6);
+	background-image: -webkit-linear-gradient(top, #e9edee, #d0d4d6);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, .4) inset;
+	border-radius: 4px;
+	border: 1px solid #b5b9ba;
+	padding: 3px;
+}
+.saveAllButton{
+	position: relative;
+	z-index: 1;
+	top: 28px;
+	margin-right: 10px;
+}
+.save-skills-button {
+	text-align: center;
+	padding: 2px 10px;
+	border-radius: 20px;
+	background-image: -webkit-linear-gradient(top, #fefefe, #e1e1e1);
+	border-radius: 4px;
+	border: 1px solid #174A61;
+	color: #174A61;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.save-skills-button:hover {
+	background-image: -webkit-linear-gradient(top, #ebebeb, #fefefe);
+	color: #174A20;
+}
