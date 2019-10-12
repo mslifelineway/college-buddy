@@ -110,6 +110,11 @@ public class UserController {
 	@PersistenceContext
 	private EntityManager em;
 
+	@RequestMapping(value = "/testing")
+	private String testing(){
+		return "college_photos";
+	}
+	
 	@RequestMapping(value = { "/", "/index" })
 	public String homePage(Model m, HttpSession session) {
 
